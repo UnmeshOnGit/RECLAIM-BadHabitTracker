@@ -1,21 +1,234 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# RECLAIM – Bad Habit Tracker
 
-# Run and deploy your AI Studio app
+<p align="center">
+  <img src="assets/logo.png" alt="RECLAIM Logo" width="150"/>
+</p>
 
-This contains everything you need to run your app locally.
+<h3 align="center">Break Bad Habits. Reclaim Your Life.</h3>
 
-View your app in AI Studio: https://ai.studio/apps/1e0145c0-3b04-4135-995c-9fe9e8161a5e
+<p align="center">
+  A modern habit-tracking application designed to help users identify, monitor, and overcome unhealthy habits through progress tracking, analytics, motivation, and consistency.
+</p>
 
-## Run Locally
+---
 
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
+## 📖 Overview
 
+**RECLAIM** is a bad habit tracking application that empowers users to take control of their lives by monitoring habits they want to eliminate. Whether it's excessive social media usage, procrastination, smoking, unhealthy eating, or any other habit, RECLAIM provides tools to track progress, maintain streaks, and stay motivated.
 
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
+The application focuses on building awareness, accountability, and consistency to help users achieve lasting behavioral change.
+
+---
+
+## ✨ Features
+
+### 🎯 Habit Management
+
+* Add and manage bad habits
+* Set custom goals and targets
+* Categorize habits for better organization
+* Edit or delete habits anytime
+
+### 📅 Daily Tracking
+
+* Log daily progress
+* Record habit occurrences
+* Monitor consistency
+* Track success and relapse days
+
+### 🔥 Streak System
+
+* Maintain clean streaks
+* View longest streak achieved
+* Stay motivated with streak milestones
+
+### 📊 Analytics Dashboard
+
+* Visual progress reports
+* Habit trend analysis
+* Success rate tracking
+* Performance insights
+
+### 🏆 Achievements & Motivation
+
+* Unlock achievement badges
+* Celebrate milestones
+* Motivation reminders
+* Positive reinforcement system
+
+### 📱 Responsive Design
+
+* Mobile-friendly interface
+* Clean and intuitive UI
+* Accessible across devices
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* HTML5
+* CSS3
+* JavaScript / TypeScript
+* React.js
+
+### Backend
+
+* Node.js
+* Express.js
+
+### Database
+
+* MongoDB / PostgreSQL
+
+### Authentication
+
+* JWT Authentication
+* Secure User Sessions
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+* Node.js (v18 or later)
+* npm or yarn
+* MongoDB (if applicable)
+
+### Installation
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/UnmeshOnGit/RECLAIM-BadHabitTracker.git
+```
+
+2. Navigate to project directory
+
+```bash
+cd RECLAIM-BadHabitTracker
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Configure environment variables
+
+Create a `.env` file:
+
+```env
+PORT=5000
+MONGO_URI=your_database_url
+JWT_SECRET=your_secret_key
+```
+
+5. Start the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## 📂 Project Structure
+
+```text
+RECLAIM-BadHabitTracker/
+│
+├── client/
+│   ├── src/
+│   ├── public/
+│
+├── server/
+│   ├── routes/
+│   ├── controllers/
+│   ├── models/
+│   └── middleware/
+│
+├── assets/
+├── README.md
+└── package.json
+```
+
+---
+
+## 📸 Screenshots
+
+### Dashboard
+
+Add your dashboard screenshot here.
+
+### Habit Tracking
+
+Add habit tracking screenshot here.
+
+### Analytics
+
+Add analytics screenshot here.
+
+---
+
+## 🎯 Future Enhancements
+
+* AI-powered habit insights
+* Smart relapse prediction
+* Community support groups
+* Habit challenge system
+* Gamification features
+* Push notifications
+* Data export functionality
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository
+2. Create a feature branch
+
+```bash
+git checkout -b feature/new-feature
+```
+
+3. Commit your changes
+
+```bash
+git commit -m "Add new feature"
+```
+
+4. Push to GitHub
+
+```bash
+git push origin feature/new-feature
+```
+
+5. Open a Pull Request
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👨‍💻 Author
+
+**Unmesh Sutar**
+
+* GitHub: https://github.com/UnmeshOnGit
+* LinkedIn: Add your LinkedIn profile
+
+---
+
+## ⭐ Support
+
+If you find this project useful, please consider giving it a ⭐ on GitHub.
+
+Your support helps the project grow and reach more users.
