@@ -1,0 +1,6 @@
+{
+  "name": "RECLAIM - Bad Habit Tracker",
+  "description": "An offline-first bad habit tracker with independent streak tracking, urge management log, and detailed behavioral psychology-focused analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
